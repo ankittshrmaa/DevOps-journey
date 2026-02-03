@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+    stages {
+        stage('Envirnonment Check') {
+            steps {
+                sh '''
+                whoami
+                uname -a
+                java -version
+                ''' }
+            }
+        }
+}
