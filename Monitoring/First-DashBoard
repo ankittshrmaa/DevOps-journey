@@ -1,0 +1,15 @@
+#Grafana First Monitoring DashBoard
+#WorkFlow
+Linux(WSL)----> Node-Exporter-----> Prometheus------> Grafana DashBoard
+
+# 
+First dashboard was created to monitor CPU uasge of target machine like-- Linux
+add visualization--- Time Series
+Title--- CPU usage 
+Select data source--- Prometheus 
+Add Query--- PromQL
+100 - avg(rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100
+
+The PromQL query 100 - avg(rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100 calculates the average CPU utilization percentage across all CPU cores on a given system or systems over the last 1 minute. 
+
+Customize dashboard 
