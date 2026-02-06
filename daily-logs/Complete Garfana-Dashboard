@@ -1,0 +1,28 @@
+06-02-2026    
+
+Complete my Full Grafana Dashboard using Linux and windows:
+
+Linux- Target system that been monitor
+Windows- For Showing Dashboard and Monitoring
+
+
+Use Linux in window as WSL:--->
+
+To export Linux matrix use Node-Exporter
+To calculate that node use prometheus
+
+For Dashboard in Windows:--->
+
+Expose prometheus to export matrix to garfana in windows
+
+Create Dashboard using Prometheus calcuations
+
+# Dashboard Monitor:--->
+
+CPU monitor
+RAM monitor
+DISK monitor
+Uptime
+Processes
+Network
+
