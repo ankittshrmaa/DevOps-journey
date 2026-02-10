@@ -1,1 +1,27 @@
+I completed configure Alert System on my monitoring project.
 
+I use grafana alert system for this, a build in alert manager
+
+### Contact points
+
+Its use for config where we want alert i use Gmail for this
+For using Email or even outlook you need APP PASSWORD for configration
+Afer save % test
+
+### Alert rules
+Setup alert rule, I setup rule for Nginx- When nginx goes down it will alert me on my gmail,
+
+(
+  probe_success{job="nginx-blackbox-external"} == 1
+)
+OR
+on() vector(0)
+
+### Alert condition
+WHEN QUERY
+
+Is below
+1
+
+
+### When Nginx went 0 it will alert me that nginx is down and when it's 1 it means Nginx is working fine
