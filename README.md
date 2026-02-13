@@ -1,4 +1,4 @@
-## DevOps-journey
+### DevOps-journey
 
 I am starting to build my career as a DevOps Engineer. Currently, I am working as an IT Executive – Monitoring and Support.
 
