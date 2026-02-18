@@ -64,13 +64,13 @@ This was the step I forgot and cause a problem
 
 
 # Right Now this looks like:
-## User → Nginx → static files.
+### User → Nginx → static files.
 
 But Its help me to understand the flow and how the production level architecture are made in production. There is no devops tool or automation is done for now.
 
-# Future Improvement
+# Future Improvement:
 Real backend deployment you are approaching (and I will do soon):
 
-User → AWS-ALB → Nginx → Python/FastAPI/Node → Containers → database
+### User → AWS-ALB → Nginx → Python/FastAPI/Node → Containers → database
 
 Move to real production level environment and will use DevOps tools to Automate jobs and function also i will try to understand and use the tools that is worked on real production.
