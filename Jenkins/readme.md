@@ -1,7 +1,9 @@
-# Jenkins. 
-The Tool is widely use for CL/CD for Automate task like Build, Test and Deploy code. jenkins ensure that deployment should be reliable, secure and fast.
+# Jenkins
 
-Its is the most widily used CL/CD tools which create piple towards multile task called Job and then running that job can automate our manual work.
+Jenkins is an automation server widely used for Continuous Integration and Continuous Delivery (CI/CD). It automates repetitive tasks such as building, testing, and deploying applications, helping ensure deployments are reliable, consistent, and fast.
 
-I will post every possible task i done during my devops journey..
+It enables the creation of pipelines composed of multiple stages (implemented as jobs), where each stage performs a specific task in the software delivery lifecycle. By executing these jobs automatically, Jenkins reduces manual intervention and minimizes human error.
+
+I will document the tasks I complete during my DevOps journey using this tool.
+
 
