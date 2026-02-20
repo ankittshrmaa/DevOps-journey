@@ -1,0 +1,63 @@
+# 03-02-2026.
+make my first jenkins job... Name as TEST-1
+
+### pipeline script..
+
+pipeline {
+    agent any
+    stages {
+        stage('Envirnonment Check') {
+            steps {
+                sh '''
+                whoami
+                uname -a
+                java -version
+                ''' }
+            }
+        }
+}
+
+### output.
+
+Started by user Ankit Sharma
+
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins
+ in /var/lib/jenkins/workspace/test-1
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Envirnonment Check)
+[Pipeline] sh
++ whoami
+jenkins
++ uname -a
+Linux FSPL-IT-008 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
++ java -version
+openjdk version "21.0.9" 2025-10-21
+OpenJDK Runtime Environment (build 21.0.9+10-Ubuntu-124.04)
+OpenJDK 64-Bit Server VM (build 21.0.9+10-Ubuntu-124.04, mixed mode, sharing)
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
+
+
+
+### This build successful in 4th build.
+
+### 4 (3 Feb 2026, 18:19:44)
+Add description
+Keep this build forever
+Started 1 hr ago
+Took 1.6 sec
+Started by user Ankit Sharma
+
+This run spent:
+
+16 ms waiting;
+1.6 sec build duration;
+1.6 sec total from scheduled to completion.
+No changes.
