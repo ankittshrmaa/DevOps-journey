@@ -1,7 +1,4 @@
-``` js 
-#
-03 - 02 - 2026.
-```
+# 03-02-2026.
 make my first jenkins job... Name as TEST-1
 
 ### pipeline script..
@@ -20,7 +17,7 @@ pipeline {
         }
 }
 
-**### output.**
+### output.
 
 Started by user Ankit Sharma
 
