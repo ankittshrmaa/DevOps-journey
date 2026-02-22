@@ -1,6 +1,6 @@
 # VPC in EC2.
 
-The Concept VPC- Virtual private cloud is so importance in EC2 that the whole EC2 instance and architecture is depend upon: i tried to learn VPC deeply as these is properly linked.
+The Concept VPC- Virtual private cloud is so importance in EC2 that the whole EC2 instance and architecture is depend upon: i tried to learn VPC deeply as these is properly linked with DevOps daily workflow.
 ### In simple VPC is act as whole secure architecture of EC2, Here we manage the security, Networking, Access, Subnetting
 with DevOps daily workflow.
 
