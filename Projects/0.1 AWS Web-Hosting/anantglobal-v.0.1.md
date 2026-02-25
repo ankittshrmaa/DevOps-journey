@@ -7,4 +7,18 @@ Domain: https://anantglobal.in/
 3. CloudFlare-tunnel
 
 
-# 1. AWS: Host this website in AWS-EC2 service, Ubuntu-24.04, t3.micro, vCPU- 2, Memory- 2GB, Volume- 8GB.
+###  AWS: 
+Host this website in AWS-EC2 service, Ubuntu-24.04, t3.micro, vCPU- 2, Memory- 2GB, Volume- 8GB.
+This configuration is enough for this project, for further deployments, I will use another instance and do deployment on this one. 
+
+
+###  Nginx: 
+Its is a lightweight, secure and flexible web-server/ reverse proxy. 
+I use nginx as this is open-source and compatible option for Ubuntu server.
+
+### CloudFlare Tunnel:
+cloud-flare offer a great service where we can create a tunnel from our system to DNS without ant static IP
+If we don't have any static IP then this is the best option to host website, Easy to use and a lot of free option from Cloud flare.
+
+## Architecture:
+
