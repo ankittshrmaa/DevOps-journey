@@ -22,3 +22,25 @@ If we don't have any static IP then this is the best option to host website, Eas
 
 ## Architecture:
 
+Internet → Cloudflare → secure outbound tunnel → EC2 (hidden machine)
+
+[ User Browser ]
+        |
+        | 1. DNS Query
+        v
+[ Cloudflare DNS ]
+        |
+        | 2. HTTPS (TLS terminates here)
+        v
+[ Cloudflare Edge (WAF + CDN + Reverse Proxy) ]
+        |
+        | 3. Encrypted persistent tunnel (outbound from server)
+        v
+[ cloudflared Agent running on EC2 ]
+        |
+        | 4. Local HTTP
+        v
+[ Nginx :80 ]
+        |
+        v
+[ Website files /var/www/html ]
