@@ -1,0 +1,1 @@
+# ASG: Auto-Scalling Group & ELB: Elatic Load Balancer.
