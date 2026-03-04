@@ -4,3 +4,34 @@ Now i will work on new project named as TheDevOps. I have complete a project in 
    ├── css/
    ├── images/
    └── php files
+
+
+   ## Project TheDevOps Workflow:  Developer
+   │
+   │ git push
+   ▼
+GitHub Repository
+   │
+   │ Webhook
+   ▼
+Jenkins Server (EC2 #1)
+   │
+   │ CI Pipeline
+   │
+   ├── Pull latest code
+   ├── Validate build
+   ├── Package artifacts
+   │
+   ▼
+Deployment Stage
+   │
+   │ SSH
+   ▼
+Web Server (EC2 #2)
+   │
+   ├── Backup current site
+   ├── Replace files
+   ├── Reload Nginx
+   │
+   ▼
+Live Website Updated
