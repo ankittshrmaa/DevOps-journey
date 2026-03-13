@@ -9,3 +9,13 @@ Docker is working or interact with kenal OS to run perticuler contaniner, It's n
 3. Docker engine.
 4. Docker file
 5. Docker Hub.
+
+## Docker Architecture:-
+
+Dockerfile---> Docker-compose----> Docker Image----> Docker Container->
+|
+|
+Run on a Docker Engine
+
+
+
