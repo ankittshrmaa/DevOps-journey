@@ -19,4 +19,4 @@
 ## Connect:
 1. Select EC2 Instance
 2. VPC and SG
-3. On EC2 install 
+3. On EC2 install
